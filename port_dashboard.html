@@ -189,11 +189,11 @@
     const clusterPalette = ['#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#ef4444', '#06b6d4', '#ec4899', '#14b8a6'];
 
     function updatePlots() {
-        document.getElementById('img-selection').src = `../ports/output/plots/model_selection_${currentProfile}.png`;
-        document.getElementById('img-elbow').src = `../ports/output/plots/k_distance_elbow_${currentProfile}.png`;
-        document.getElementById('img-umap').src = `../ports/output/plots/umap_projection_${currentProfile}.png`;
-        document.getElementById('img-scree').src = `../ports/output/plots/pca_scree_${currentProfile}.png`;
-        document.getElementById('img-tsne').src = `../ports/output/plots/tsne_tuning_${currentProfile}.png`;
+        document.getElementById('img-selection').src = `ports/output/plots/model_selection_${currentProfile}.png`;
+        document.getElementById('img-elbow').src = `ports/output/plots/k_distance_elbow_${currentProfile}.png`;
+        document.getElementById('img-umap').src = `ports/output/plots/umap_projection_${currentProfile}.png`;
+        document.getElementById('img-scree').src = `ports/output/plots/pca_scree_${currentProfile}.png`;
+        document.getElementById('img-tsne').src = `ports/output/plots/tsne_tuning_${currentProfile}.png`;
     }
 
     function setProfile(p) {
